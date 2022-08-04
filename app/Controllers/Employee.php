@@ -50,7 +50,7 @@ class Employee extends ResourceController{
     function update($id = null)
     {
         $model = new EmployeeModel();
-        echo 'ID: ' . $id;
+        // echo 'ID: ' . $id;
         // $name = $this->request->getVar('name');
         // $json = $this->request->getJSON();
         // if($json){
@@ -69,8 +69,8 @@ class Employee extends ResourceController{
         $check_id = $model->where('id',$id)->first();
         // $id = $this->request->getVar('id');
         // echo 'id: ' . $id;
-        // print_r($this->show($id));die;
-        if(! empty($check_id)){
+        // print_r($check_id);die;
+        if($check_id){
             // print_r($check_id);die;
         
             $data = [
