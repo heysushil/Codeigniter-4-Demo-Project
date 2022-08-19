@@ -31,6 +31,25 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <h1>Table</h1>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>name</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <?php
     // $this->endSection();
 ?>
